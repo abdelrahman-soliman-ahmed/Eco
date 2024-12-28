@@ -1,0 +1,122 @@
+.left i{
+    display: block;
+    margin-left: -91%;
+    margin-bottom: -68%;
+    background-color: #ffffff;
+    width: 71%;
+    text-align: center;
+    height: 63px;
+    padding-top: 11px;
+}
+
+
+.col-4 {width: 300px; margin-bottom: 10%;position: relative;}
+
+.hover-text {opacity: 0; visibility: hidden;}
+
+.col-4 .hidd{color: #ffffff; opacity: 1; visibility: visible; position: relative;top: 35%;}
+
+.col-4:hover .hover-text {
+    color: #000000;
+    opacity: 1; 
+    visibility: visible; 
+    padding-bottom:50px;
+    transition: opacity 1s, visibility 1s; 
+    background-color: white;
+    padding: 20px; 
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+}
+
+.col-4:hover .hidd{opacity: 0; visibility: hidden; transition: opacity 1s, visibility 1s;}
+
+.ll{margin-left: 35%;}
+
+
+
+
+.col-4 .descri{
+opacity: 0;
+visibility: visible;
+}
+.col-4:hover .descri{
+    opacity: 1;
+    visibility: hidden;
+    transition: opacity 1s, visibility 10s; 
+} 
+
+
+
+.hover-container > h1, P {
+    position: relative;
+    display: inline-block; 
+}
+
+.hover-content  {
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    width: 92%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+    padding: 10px;
+}
+
+.hover-container:hover .hover-content {
+    opacity: 1;
+    visibility: visible;
+     margin-top: -20px;
+}
+
+.hover-container:hover .static-content {
+    opacity: 1; 
+    transition: opacity 0.3s ease; 
+    background-color: white;
+
+}
+
+.hover-container:hover .hover-content {
+    opacity: 1; 
+    visibility: visible; 
+    background-color: white;
+}
+
+.nav-pills{border-radius: 150px;}
+
+
+.nav-pills > li > a{padding: 19px 54px; border-radius: 150px;}
+
+#secend{
+    display: none !important;
+}
+
+.border-bottom-custem{
+border-bottom: 1px solid blue;
+margin-left: 38%;
+}
+
+
+.border-bottom-custe{
+    border-bottom: 1px solid black;margin-left: 12%;}
+
+.card .le{margin-left: 39%;margin-top: 5%;}
+
+.st{margin-left: 123px;margin-top: -95px;} 
+
+.col-3 {height: 199px;width: 550px;margin-left: 44px;}
+
+.col-4 .po{top: 261px;left: 16px;width: 120%;padding-left: 52px;}
+
+.col-4 .for-a-i{width: 12% !important;z-index: 1 !important;height: 224px !important;}
+
+.col-4 .ho-conta{position: relative;}
+
+.ho-conta:hover .ho-cont{padding-left: 2px;transform: scale(1.1) rotate(-3deg);}
+
+.col-4 .ww{width: 17%;}
